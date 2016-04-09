@@ -85,9 +85,7 @@ function onLocationFound(e) {
 		if (typeof JSON_VALUE == "undefined") return 1;
 		DATA[2] = JSON_VALUE;
 	//#--------------------------------------------------------------
-		//$('#Text_S2').text(DATA[2]); 
-		marker.setLatLng([DATA[0], DATA[1]]).update();
-		
+		marker.setLatLng([DATA[0], DATA[1]]).update();		
 	}
 
 	function Print_Data_Stream_3(Data){ $('#Text_S3').text(Data); }
